@@ -1,20 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+.Melody {
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
-  background-color: #ffc2bb;
+  background-color: #ffa5c5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +23,37 @@
   color: #d76483;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+p {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #fff, #ffffff, #fff);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 0, 0, 0.445);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    background-position: 500%;
   }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+h2 {
+  color: hsl(0, 0%, 13%);
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  font-size: 130%;  
+  line-height: 1.5;
+}
+
