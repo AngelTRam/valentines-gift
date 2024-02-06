@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/valentines-gift/static/css/main.ade633a1.css",
+    "main.css": "/valentines-gift/static/css/main.7ddf69fc.css",
     "main.js": "/valentines-gift/static/js/main.4382c572.js",
     "static/js/787.3a488df0.chunk.js": "/valentines-gift/static/js/787.3a488df0.chunk.js",
     "static/media/my-melody-love.gif": "/valentines-gift/static/media/my-melody-love.4f7db515fab8a9ea6be1.gif",
     "index.html": "/valentines-gift/index.html",
-    "main.ade633a1.css.map": "/valentines-gift/static/css/main.ade633a1.css.map",
+    "main.7ddf69fc.css.map": "/valentines-gift/static/css/main.7ddf69fc.css.map",
     "main.4382c572.js.map": "/valentines-gift/static/js/main.4382c572.js.map",
     "787.3a488df0.chunk.js.map": "/valentines-gift/static/js/787.3a488df0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ade633a1.css",
+    "static/css/main.7ddf69fc.css",
     "static/js/main.4382c572.js"
   ]
 }
