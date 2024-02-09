@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/valentines-gift/static/css/main.f62b2adc.css",
-    "main.js": "/valentines-gift/static/js/main.9ab09790.js",
+    "main.css": "/valentines-gift/static/css/main.6d792271.css",
+    "main.js": "/valentines-gift/static/js/main.dbb84d53.js",
     "static/js/787.3a488df0.chunk.js": "/valentines-gift/static/js/787.3a488df0.chunk.js",
     "static/media/my-melody-love.gif": "/valentines-gift/static/media/my-melody-love.4f7db515fab8a9ea6be1.gif",
     "index.html": "/valentines-gift/index.html",
-    "main.f62b2adc.css.map": "/valentines-gift/static/css/main.f62b2adc.css.map",
-    "main.9ab09790.js.map": "/valentines-gift/static/js/main.9ab09790.js.map",
+    "main.6d792271.css.map": "/valentines-gift/static/css/main.6d792271.css.map",
+    "main.dbb84d53.js.map": "/valentines-gift/static/js/main.dbb84d53.js.map",
     "787.3a488df0.chunk.js.map": "/valentines-gift/static/js/787.3a488df0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f62b2adc.css",
-    "static/js/main.9ab09790.js"
+    "static/css/main.6d792271.css",
+    "static/js/main.dbb84d53.js"
   ]
 }
