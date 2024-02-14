@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
+body{
+  background-color: #ffa5c5;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -9,7 +19,6 @@
 }
 
 .App-header {
-  background-color: #ffa5c5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +32,7 @@
   color: #d76483;
 }
 
-p {
+.App-header h1 {
   position: relative;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -33,14 +42,50 @@ p {
   background: linear-gradient(90deg, #fff, #ffffff, #fff);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 3s linear infinite;
+  animation: animate1 3s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 0, 0, 0.445);
 }
 
-@keyframes animate {
+
+.App-header h2 {
+  color: hsl(0, 0%, 13%);
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  font-size: 130%;  
+  line-height: 1.5;
+}
+
+.App-header h3 {
+  color: hsl(0, 0%, 13%);
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  font-size: 50%;  
+  line-height: 1.5;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+
+
+
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes animate1 {
   0% {
     background-position: -500%;
+  }
+  50%{
+    opacity: 0.8;
   }
   100% {
     background-position: 500%;
@@ -49,11 +94,4 @@ p {
 
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 
-h2 {
-  color: hsl(0, 0%, 13%);
-  font-family: 'Gochi Hand', cursive;
-  text-align: center;
-  font-size: 130%;  
-  line-height: 1.5;
-}
 
